@@ -1,0 +1,85 @@
+:root {
+  --container-width: 20em;
+  --container-height: 15em;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --container-width: 30em;
+    --container-height: 25em;
+  }
+}
+
+.Button-hoverable-area {
+  z-index: 4;
+}
+.Button-container {
+  z-index: 3;
+}
+.Button-label {
+  z-index: 2;
+}
+.Button-canvas {
+  z-index: 1;
+}
+.Button-background {
+  z-index: 0;
+}
+
+.Button-canvas,
+.Button-background,
+.Button-label,
+.Button-hoverable-area {
+  position: absolute;
+}
+
+.Button-container {
+  height: var(--container-height);
+  width: var(--container-width);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button-background,
+.Button-hoverable-area {
+  border-radius: var(--container-width);
+  width: var(--container-width);
+  height: calc(var(--container-height) - (var(--container-height) * 0.5));
+  border: none;
+}
+
+.Button-hoverable-area {
+  background: transparent;
+}
+
+.Button-hoverable-area:hover {
+  cursor: pointer;
+}
+
+.Button-background {
+  background: linear-gradient(
+    80deg,
+    rgba(158, 193, 243, 1) 0%,
+    rgba(127, 178, 251, 1) 100%
+  );
+}
+
+.Button-background.hovered {
+  background: linear-gradient(
+    80deg,
+    rgba(105, 214, 253, 1) 0%,
+    rgba(182, 169, 255, 1) 29%,
+    rgba(233, 58, 112, 1) 71%,
+    rgba(254, 51, 112, 1) 100%
+  );
+  box-shadow: 50px 50px 50px -50px #f13870, -20px 10px 60px -40\px#3cb9ff;
+}
+
+.Button-label {
+  color: white;
+  font-weight: bold;
+  font-size: calc(var(--container-height) / 4.5);
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: -0.02em;
+}
