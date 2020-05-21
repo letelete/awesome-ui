@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ch0-3d-animated-button/static/css/main.4f2ac63e.chunk.css",
+    "main.js": "/ch0-3d-animated-button/static/js/main.fb7e166e.chunk.js",
+    "main.js.map": "/ch0-3d-animated-button/static/js/main.fb7e166e.chunk.js.map",
+    "runtime-main.js": "/ch0-3d-animated-button/static/js/runtime-main.700a7c84.js",
+    "runtime-main.js.map": "/ch0-3d-animated-button/static/js/runtime-main.700a7c84.js.map",
+    "static/js/2.c767e119.chunk.js": "/ch0-3d-animated-button/static/js/2.c767e119.chunk.js",
+    "static/js/2.c767e119.chunk.js.map": "/ch0-3d-animated-button/static/js/2.c767e119.chunk.js.map",
+    "index.html": "/ch0-3d-animated-button/index.html",
+    "precache-manifest.276081e990fe2fda543e120df1b54654.js": "/ch0-3d-animated-button/precache-manifest.276081e990fe2fda543e120df1b54654.js",
+    "service-worker.js": "/ch0-3d-animated-button/service-worker.js",
+    "static/css/main.4f2ac63e.chunk.css.map": "/ch0-3d-animated-button/static/css/main.4f2ac63e.chunk.css.map",
+    "static/js/2.c767e119.chunk.js.LICENSE.txt": "/ch0-3d-animated-button/static/js/2.c767e119.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.700a7c84.js",
+    "static/js/2.c767e119.chunk.js",
+    "static/css/main.4f2ac63e.chunk.css",
+    "static/js/main.fb7e166e.chunk.js"
+  ]
+}
