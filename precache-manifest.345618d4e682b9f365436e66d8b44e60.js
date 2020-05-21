@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3461005fe7fd849a51bd5a8fb158b2f",
+    "revision": "3ed9f738ba5e88ae0d4f51617591cd40",
     "url": "/ch0-3d-animated-button/index.html"
   },
   {
-    "revision": "1e85b160363535db937e",
-    "url": "/ch0-3d-animated-button/static/css/main.4f2ac63e.chunk.css"
+    "revision": "aab6e6cc0cbb676ee9ff",
+    "url": "/ch0-3d-animated-button/static/css/main.0f38f16c.chunk.css"
   },
   {
     "revision": "8f690f4801cce0042dfd",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ch0-3d-animated-button/static/js/2.c767e119.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e85b160363535db937e",
-    "url": "/ch0-3d-animated-button/static/js/main.fb7e166e.chunk.js"
+    "revision": "aab6e6cc0cbb676ee9ff",
+    "url": "/ch0-3d-animated-button/static/js/main.28dc82e5.chunk.js"
   },
   {
     "revision": "6af3fa9d9d1651cdcde1",
